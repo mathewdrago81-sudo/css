@@ -1,0 +1,72 @@
+
+/* 1. Colors */
+.color {
+    color: #ff0000;
+    background-color: rgb(255, 255, 0);
+}
+
+/* 2. Text Styling */
+.text {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2;
+}
+
+/* 3. Backgrounds */
+.background {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* 4. Box Model */
+.box {
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+/* 5. Display */
+.block {
+    display: block;
+    background-color: lightgreen;
+}
+
+.inline {
+    display: inline;
+    background-color: yellow;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: pink;
+    padding: 10px;
+}
+
+.none {
+    display: none;
+}
+
+/* 6. Units */
+.units {
+    width: 50%;
+    font-size: 2em;
+    padding: 1rem;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+/* 7. Pseudo-classes */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+}
